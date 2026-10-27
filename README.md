@@ -42,19 +42,6 @@ Develop a robust machine learning model that accurately predicts credit scores (
 - **Financial Health**: Outstanding_Debt, Total_EMI_per_month, Monthly_Balance
 - **Credit History**: Num_of_Delayed_Payment, Num_Credit_Inquiries, Credit_History_Age
 
-### 📥 How to Download
-```bash
-# Option 1: Clone the entire repository
-git clone https://github.com/viraj-gavade/Paisabazaar-Banking-Fraud-Analysis.git
-
-# Option 2: Download dataset directly
-wget https://raw.githubusercontent.com/viraj-gavade/Paisabazaar-Banking-Fraud-Analysis/main/dataset-2.csv
-
-# Option 3: Using Python
-import pandas as pd
-url = "https://raw.githubusercontent.com/viraj-gavade/Paisabazaar-Banking-Fraud-Analysis/main/dataset-2.csv"
-df = pd.read_csv(url)
-```
 
 ## 🚀 Project Structure
 
@@ -126,10 +113,6 @@ Git
 ```
 
 ### Installation Steps
-```bash
-# Clone the repository
-git clone https://github.com/viraj-gavade/Paisabazaar-Banking-Fraud-Analysis.git
-cd Paisabazaar-Banking-Fraud-Analysis
 
 # Install required packages
 pip install pandas numpy matplotlib seaborn scikit-learn
